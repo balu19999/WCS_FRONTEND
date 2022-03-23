@@ -2,9 +2,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ login ]
+    branches: [ main, login ]
   pull_request:
-    branches: [ login ]
+    branches: [ main, login ]
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [17.x]
 
     steps:
     - name: Checkout repository
