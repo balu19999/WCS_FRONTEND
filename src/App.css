@@ -1,0 +1,119 @@
+body{
+  background:#d7ccc8;
+}
+#root > div > nav > div > img{
+position:relative;
+top:5px;
+left:-300px;
+}
+#root > div > nav > div > ul > li:nth-child(1) > a{
+  color:blue;
+  position:relative;
+  margin-right:-150px;
+  margin-left:200px;
+  right:-70px;
+
+}
+#root > div > nav > div > ul > li:nth-child(2) > a{
+  color:green;
+
+}
+#root > div > nav > div > ul > li:nth-child(2) > a > button{
+  color:green;
+  margin-right:30px;
+  margin-left:-180px;
+  position:relative;
+  right:-400px;
+  border-color:green;
+  border-width: 2px;
+  border-radius:5px;
+}
+#root > div > div{
+  border:3px solid green;
+  bottom:-150px;
+  margin-top:150px;
+  }
+#root > div > div{
+    position:relative;
+    z-index:1;
+    width:390px;
+    margin:0 auto 100px;
+    padding:25px;
+    text-align:left;
+    border-radius:5px;
+  }
+  #username{
+    width:330px;
+    height:30px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+  }
+  #password{
+    width:330px;
+    height:30px;
+    border-radius: 0px;
+    border: 1px solid #ccc;    
+  }
+  #root > div > div > form > div:nth-child(6) > input[type=radio\ center]{
+    width:12px;
+    height:12px;
+  }
+  #root > div > div > form > div:nth-child(7) > input[type=radio\ center]{
+    width:12px;
+    height:12px;
+  } 
+  #root > div > div > form > button{
+    color:white;
+    border-color:#1b5e20;
+    border:0px;
+    height:30px;
+    border-radius:5px;
+  }
+  #root > div > div > form > div:nth-child(9) > button{
+    color:white;
+    border:0px;
+    height:22px;
+    margin-right:-14px;
+    border-radius:5px;
+  }
+
+  #root > div > div{
+    color:black;
+  }
+  button, html [type="button"], [type="reset"], [type="submit"]{
+    position:relative;
+    height:35px;
+    color:white;
+    border:0px;
+    border-radius:5px;
+  }
+  #emailid{
+    width:340px;
+    height:30px;
+
+  }
+  #password1{
+    width:340px;
+    height:30px;
+  }
+  #root > div > div
+  {
+    position:relative;
+    height:460px
+  }
+  #phonenumber{
+    width:330px;
+    height:30px;
+  }
+  #root > div > div > form > p:nth-child(4){
+    color: red;
+  }
+  #root > div > div > form > p:nth-child(7){
+    color: red;
+  }
+  #root > div > div > form > button
+  {
+    position: relative;
+    top: 31px;
+  }
+ 
